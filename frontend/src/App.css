@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.hover_effect {
+  transition: all 0.3s;
+}
+
+.hover_effect:hover {
+  transform: scale(1.1); /* Corrected value */
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.cards{
+  display: flex;
+  gap: 30px;
+  padding: 10%;
+}
+/* about-us.css */
+
+.about-us {
+  margin-top:5rem;
+  max-width: 800px;
+  /* margin: 0 auto; */
+  padding:18rem;
+  background-image: url('https://img.freepik.com/free-vector/food-delivery-logo-with-bike-man-courier_1308-48914.jpg?size=626&ext=jpg&ga=GA1.1.87170709.1696377600&semt=ais');
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the image within the container */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  color: black; /* Set the text color to be visible against the background */
+  margin-bottom: 40px;
+  
+}
+.img-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px
+  
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
